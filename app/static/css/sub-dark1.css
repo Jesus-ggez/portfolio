@@ -18,7 +18,9 @@
     .hero-title { color: #ececec; }
 
     .highlight {
-        color: #a4a2d0;
+        /* color: #a4a2d0; lila */
+        /* color: #a8a4c9; lila-grisaceo*/
+        color: #8b9dc3; /* azul-grsaceo */
         border-bottom-color: #5a5a5a;
     }
 
