@@ -1,0 +1,29 @@
+{{ define "hero" }}
+<section class="hero">
+    <div class="hero-text">
+        <h3 class="hero-tag">✦ Desarrollador </h3>
+
+        <h1 class="hero-title">
+            Hola, soy <span>Lgsus zzzvaleta!</span> <br>
+        </h1>
+
+        <p class="hero-desc">
+            Desarrollador con experiencia en multiples areas pero con
+            gran interes en <span>Backend</span>
+        </p>
+
+        <p class="hero-desc">
+            La mayoria de los proyectos publicos que tengo son por entretenimiento,
+            sin embargo, no por que sean <span>no serios</span>
+            significa que sean malos
+        </p>
+    </div>
+
+    <hr class="resizable">
+
+    <div class="hero-visual">
+        {{ template "hero-cards" . }}
+    </div>
+
+</section>
+{{ end }}

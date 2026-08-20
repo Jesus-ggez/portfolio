@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email content</title>
+        {{ template "import-css" . }}
+    </head>
+    <body>
+        <h1>Title email</h1>
+
+        {{ .Message }}
+
+        {{ .Email }}
+    </body>
+</html>
+

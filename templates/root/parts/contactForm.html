@@ -1,0 +1,47 @@
+{{ define "form-contact" }}
+<form
+    action="/api/email"
+    method="post"
+    class="frm"
+    >
+
+    <h4 class="frm-title">Contact</h5>
+
+    <div class="grp">
+        <label
+            for="email"
+            >Email</label>
+
+        <input
+            aria-describedby="addon-wrapping"
+            placeholder="an-email@sample.com"
+            aria-label="Email"
+            required
+            name="email"
+            type="email"
+            >
+    </div>
+
+
+    <div class="grp">
+        <label
+            for="message"
+            >Your message</label>
+
+        <input
+            aria-describedby="email field"
+            aria-label="Your message"
+            placeholder="..."
+            required
+            name="message"
+            type="text"
+            >
+    </div>
+
+    <div>
+        <button class="btn">Send</button>
+    </div>
+
+</form>
+{{ end }}
+
