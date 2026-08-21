@@ -1,0 +1,110 @@
+@media(prefers-color-scheme: dark) {
+   .technologies {
+        background: #242424;
+        border-color: #3a3a3a;
+        box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.7);
+    }
+
+    .technologies__header { border-bottom-color: #404040; }
+
+    .technologies__title {
+        color: #cfcfcf;
+        background: #2e2e2e;
+    }
+
+    .technologies__title strong {
+        color: #e8e8e8;
+        background: #3b3b3b;
+    }
+
+    .technologies__sub {
+        color: #9a9a9a;
+        border-bottom-color: #4a4a4a;
+    }
+
+    /* tarjetas de lenguaje */
+    .lang-card {
+        background: #2b2b2b;
+        border-color: #3f3f3f;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .lang-card:hover {
+        background: #323232;
+        border-color: #565656;
+    }
+
+    .lang-card__name {
+        color: #e0e0e0;
+        border-bottom-color: #444444;
+    }
+
+    .lang-card__badge {
+        background: #3d3d3d;
+        color: #bfbfbf;
+    }
+
+    /* ecosistema */
+    .ecosys-item {
+        background: #363636;
+        color: #cecece;
+        border-color: #4b4b4b;
+    }
+
+    .ecosys-item:hover {
+        background: #424242;
+        border-color: #666;
+    }
+
+    /* librerías */
+    .lang-card__libs { border-top-color: #3d3d3d; }
+
+    .lang-card__libs-title { color: #999; }
+
+               /* para mantener el tono "corporativo oscuro" */
+    .technologies__title strong { background: #3a3a3a; }
+
+    .lib-tag {
+        background: #363636;
+        color: #cacaca;
+        border-color: #4a4a4a;
+    }
+
+    /* pie */
+    .technologies__footer {
+        border-top-color: #3d3d3d;
+        color: #8f8f8f;
+    }
+
+    .technologies__footer span {
+        background: #303030;
+        border-color: #4a4a4a;
+        color: #b0b0b0;
+    }
+
+    /* elementos auxiliares (si existen) */
+    .gray-rule { background: #3d3d3d; }
+
+    /* ajuste para hover general */
+    .lang-card:hover.ecosys-item {
+        background: #404040;
+        border-color: #5a5a5a;
+    }
+
+    .lang-card:hover.lib-tag {
+        background: #3d3d3d;
+        border-color: #555;
+    }
+
+
+    /* si se usa un theme toggle, también se puede aplicar a :root */
+    :root body {
+        background: #1a1a1a;
+    }
+
+    :root.technologies {
+        background: #242424;
+        border-color: #3a3a3a;
+    }
+}
+
