@@ -70,21 +70,6 @@
         border-color: #4a4a4a;
     }
 
-    /* pie */
-    .technologies__footer {
-        border-top-color: #3d3d3d;
-        color: #8f8f8f;
-    }
-
-    .technologies__footer span {
-        background: #303030;
-        border-color: #4a4a4a;
-        color: #b0b0b0;
-    }
-
-    /* elementos auxiliares (si existen) */
-    .gray-rule { background: #3d3d3d; }
-
     /* ajuste para hover general */
     .lang-card:hover.ecosys-item {
         background: #404040;
@@ -96,11 +81,6 @@
         border-color: #555;
     }
 
-
-    /* si se usa un theme toggle, también se puede aplicar a :root */
-    :root body {
-        background: #1a1a1a;
-    }
 
     :root.technologies {
         background: #242424;

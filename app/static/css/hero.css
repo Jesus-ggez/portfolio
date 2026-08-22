@@ -4,6 +4,12 @@
 
 
 /* Hero: tarjeta que simula una sección principal corporativa */
+.hero-geometric {
+    align-self: flex-end;
+    margin-top: -1.8rem;
+    opacity: 0.3;
+    pointer-events: none;
+}
 .hero {
     max-width: 1280px;
     width: 100%;
@@ -157,14 +163,6 @@
     margin-top: 0.3rem;
     border-top: 1px solid #d8d8d8;
     padding-top: 0.5rem;
-}
-
-/* Elemento decorativo: línea geométrica (muy corporativo) */
-.hero-geometric {
-    align-self: flex-end;
-    margin-top: -1.8rem;
-    opacity: 0.3;
-    pointer-events: none;
 }
 
 /* Responsive */

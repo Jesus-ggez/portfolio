@@ -1,22 +1,48 @@
-<form
-    >
+<form class="form" action="api/email" method="post">
+    <h2>✦ Contacto </h2>
 
-    <h1>Form</h1>
+    <!-- email -->
+    <div class="form-field-group">
 
-    <div>
+
         <label
-            >Sample</label>
+            for="email">Correo electrónico</label>
 
-        <input name"sample">
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="liu@ruyan.com"
+            autocomplete="email">
+
+
     </div>
 
-    <div>
-        <label
-            >Sample</label>
+    <!-- área de msg -->
+    <div class="form-field-group">
 
-        <input name"sample">
+
+        <label
+            for="msg"
+            >Mensaje</label>
+
+        <textarea
+            id="msg"
+            name="msg"
+            placeholder="baobeinaibai ..."
+            ></textarea>
+
+        <span
+            class="form-help-text"
+            >Máx. 500 caracteres</span>
+
+
     </div>
 
-    <button>Send</button>
+    <hr class="divider">
+
+    <button type="submit" class="form-send-button">Enviar</button>
+
+    <hr class="divider">
 
 </form>

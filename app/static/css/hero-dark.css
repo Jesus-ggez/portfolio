@@ -1,5 +1,16 @@
 @media(prefers-color-scheme: dark) {
-    body { background: #1a1a1a; }
+    .hero-geometric rect {
+        stroke: #5a5a5a;
+        stroke-opacity: 0.4;
+    }
+    .hero-geometric line {
+        stroke: #5a5a5a;
+        stroke-opacity: 0.25;
+    }
+    .hero-geometric circle {
+        color: #4a4a4a;
+        opacity: 0.6;
+    }
 
     .highlight-emphasis{ color: #aaa4; }
 
@@ -63,22 +74,6 @@
         color: #9a9a9a;
         border-top-color: #3a3a3a;
     }
-
-    .hero-geometric rect {
-        stroke: #5a5a5a;
-        stroke-opacity: 0.4;
-    }
-
-    .hero-geometric line {
-        stroke: #5a5a5a;
-        stroke-opacity: 0.25;
-    }
-
-    .hero-geometric circle {
-        stroke: #5a5a5a;
-        stroke-opacity: 0.3;
-    }
-
     .hero-watermark {
         color: #4a4a4a;
         opacity: 0.6;

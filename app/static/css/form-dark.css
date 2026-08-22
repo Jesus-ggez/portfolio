@@ -1,0 +1,69 @@
+@media (prefers-color-scheme: dark) {
+    .form {
+        background: #1f1f1f;
+        border-color: #4a4a4a;
+        box-shadow:
+            0 12px 28px rgba(0, 0, 0, 0.6),
+            0 4px 12px rgba(0, 0, 0, 0.3),
+            inset 0 1px 0 #3a3a3a;
+    }
+
+    .form h2 {
+        color: #e0e0e0;
+        border-bottom-color: #5a5a5a;
+        text-shadow: 0 1px 0 #2a2a2a;
+    }
+
+    .form-field-group label {
+        color: #b0b0b0;
+        border-left-color: #6a6a6a;
+    }
+
+    .form-field-group input,
+    .form-field-group select,
+    .form-field-group textarea {
+        background: #2b2b2b;
+        border-color: #4a4a4a;
+        color: #e8e8e8;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4);
+    }
+
+    .form-field-group input:focus,
+    .form-field-group select:focus,
+    .form-field-group textarea:focus {
+        background: #323232;
+        border-color: #7a7a7a;
+        box-shadow: 0 0 0 1px #6a6a6a, inset 0 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+
+    .form-help-text {
+        color: #8a8a8a;
+        border-left-color: #5a5a5a;
+    }
+
+    .form-send-button {
+        background: #3a3a3a;
+        border-color: #2a2a2a;
+        color: #e8e8e8;
+        box-shadow: inset 0 1px 0 #5a5a5a;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    }
+
+    .form-send-button:hover {
+        background: #4a4a4a;
+        border-color: #3a3a3a;
+        box-shadow: inset 0 1px 0 #6a6a6a, 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .form-send-button:active {
+        background: #2a2a2a;
+        border-color: #1a1a1a;
+        box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .divider {
+        background: #5a5a5a
+    }
+
+}
