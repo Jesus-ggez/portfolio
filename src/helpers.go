@@ -59,11 +59,19 @@ func getCSS(dir string) (css ListStr) {
     entries, err := fs.ReadDir(staticSub, ".")
     if err != nil { panic(err.Error()) }
 
+
+    darkMode := []string{}
+
     for _, entry := range entries {
         if !entry.IsDir() && strings.HasSuffix(entry.Name(), ".css") {
+            if strings.Contains(entry.Name(), "-dark") {
+                darkMode= append(darkMode, dir + "/" + entry.Name())
+                continue
+            }
             css = append(css, dir + "/" + entry.Name())
         }
     }
+    css = append(css, darkMode...)
     cssCache[dir] = css
     return
 }

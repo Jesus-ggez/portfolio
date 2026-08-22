@@ -1,29 +1,70 @@
 {{ define "hero" }}
-<section class="hero">
-    <div class="hero-text">
-        <h3 class="hero-tag">✦ Desarrollador </h3>
+<div class="hero">
+    <!-- Fondo sutil -->
+    <div class="hero-bg-pattern"></div>
 
+    <!-- Contenido principal -->
+    <div class="hero-content">
+        <!-- Badge de "seriedad" -->
+        <span class="hero-badge">✦    Desarrollador Fullstack</span>
+
+        <!-- Título: contundente, en grises -->
         <h1 class="hero-title">
-            Hola, soy <span>Lgsus zzzvaleta!</span> <br>
+            Hola! soy
+            <span class="highlight">Jesus zzvaleta</span>
+            Desarrollador
+            <span class="highlight">Fullstack</span>
+            <br />
         </h1>
 
-        <p class="hero-desc">
-            Desarrollador con experiencia en multiples areas pero con
-            gran interes en <span>Backend</span>
+        <!-- Descripción: tono formal -->
+        <p class="hero-description">
+                Desarrollo para el sector financiero y para mercados globales.
+                Datos, análisis y ejecución sin concesiones.
         </p>
 
-        <p class="hero-desc">
-            La mayoria de los proyectos publicos que tengo son por entretenimiento,
-            sin embargo, no por que sean <span>no serios</span>
-            significa que sean malos
-        </p>
+        <!-- Acciones: CTA en gris oscuro y secundario -->
+        <div class="hero-actions">
+            <button class="btn-primary">Ver tecnologias</button>
+            <button class="btn-secondary">Contacto</button>
+        </div>
+
+        <!-- Divisoria -->
+        <div class="hero-divider"></div>
+
+        <!-- Estadísticas (muy corporativo) -->
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number">87%</span>
+                <span class="stat-label">Efectividad operativa</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">
+                    <span class="highlight-emphasis no-border">+</span>
+                    30.000 rps
+                </span>
+                <span class="stat-label">Aplicaciones de alto trafico</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">
+                    <span class="highlight-emphasis">
+                        USD
+                    </span>
+                    14.000
+                </span>
+                <span class="stat-label">Ahorrado en servidores</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">A+</span>
+                <span class="stat-label">Rating corporativo</span>
+            </div>
+        </div>
     </div>
+    <br class="divider">
 
-    <hr class="resizable">
+    <!-- Watermark (opcional, refuerza el tono) -->
+    {% include 'shared/ico-poi.html' %}
+    <div class="hero-watermark">· POI ·</div>
 
-    <div class="hero-visual">
-        {{ template "hero-cards" . }}
-    </div>
-
-</section>
+</div>
 {{ end }}

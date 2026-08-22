@@ -1,0 +1,91 @@
+@media(prefers-color-scheme: dark) {
+    .hero-geometric rect {
+        stroke: #5a5a5a;
+        stroke-opacity: 0.4;
+    }
+    .hero-geometric line {
+        stroke: #5a5a5a;
+        stroke-opacity: 0.25;
+    }
+    .hero-geometric circle {
+        color: #4a4a4a;
+        opacity: 0.6;
+    }
+
+    .highlight-emphasis{ color: #aaa4; }
+
+    .hero {
+        background: #141414;                            /* fondo base, gris muy oscuro */
+        border-color: #2a2a2a;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+    }
+
+    .hero-badge {
+        background: #242424;
+        color: #cfcfcf;
+        border-color: #3d3d3d;
+    }
+
+    .hero-title { color: #ececec; }
+
+    .highlight {
+        /* color: #a4a2d0; lila */
+        /* color: #a8a4c9; lila-grisaceo*/
+        color: #8b9dc3; /* azul-grsaceo */
+        border-bottom-color: #5a5a5a;
+    }
+
+    .no-border { border-bottom: none; }
+
+    .hero-description {
+        color: #b8b8b8;
+        border-left-color: #4a4a4a;
+        background: linear-gradient(90deg, #1e1e1e 0%, #141414 100%);
+    }
+
+    .btn-primary {
+        background: #e0e0e0;
+        color: #141414;
+        border-color: #e0e0e0;
+    }
+
+    .btn-primary:hover {
+        background: #f0f0f0;
+        box-shadow: 0 8px 24px rgba(255, 255, 255, 0.06);
+        transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+        color: #cfcfcf;
+        border-color: #4a4a4a;
+    }
+
+    .btn-secondary:hover {
+        background: #2a2a2a;
+        border-color: #7a7a7a;
+        color: #f0f0f0;
+    }
+
+    .hero-divider { background: linear-gradient(90deg, #3a3a3a 0%, #222222 100%); }
+
+    .stat-number { color: #f0f0f0; }
+
+    .stat-label {
+        color: #9a9a9a;
+        border-top-color: #3a3a3a;
+    }
+    .hero-watermark {
+        color: #4a4a4a;
+        opacity: 0.6;
+    }
+
+    .hero-bg-pattern {
+        background: radial-gradient(circle at 30% 40%, #2a2a2a 0%, transparent 70%);
+        opacity: 0.3;
+    }
+
+    .hero::before {
+        background: linear-gradient(90deg, #4a4a4a, #6a6a6a, #4a4a4a);
+        opacity: 0.8;
+    }
+}
